@@ -28,7 +28,7 @@
       "command": "npx",
       "args": [
         "-y",
-        "@upstash/context7-mcp"
+        "@upstash/context7-mcp@4.4.1"
       ]
     },
     "CrowdReply": {
