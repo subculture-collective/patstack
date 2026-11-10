@@ -64,7 +64,7 @@ brand/             logo and brand guide
 
 ## Contributing
 
-Open pull requests on GitHub against `main`. CI runs the three checks above on every pull request. Edit the source files here, not installed copies. When moving or importing a resource, keep its license and notices with it.
+Report bugs and request features in [GitHub issues](https://github.com/subculture-collective/patstack/issues). Ask questions and share ideas in [GitHub Discussions](https://github.com/subculture-collective/patstack/discussions). Open pull requests on GitHub against `main`. CI runs the three checks above on every pull request. Edit the source files here, not installed copies. When moving or importing a resource, keep its license and notices with it.
 
 ## License
 
