@@ -31,17 +31,6 @@
     ]
   },
   {
-    "name": "blacktower-development",
-    "description": "Blacktower plugin, session lifecycle, control UI, and release changes; use only in the Blacktower repository.",
-    "scope": "repository",
-    "sources": [
-      "control-surface-designer",
-      "plugin-integrator",
-      "release-engineer",
-      "session-warden"
-    ]
-  },
-  {
     "name": "build-and-fix-ci",
     "description": "CI failures, pipelines, pre-commit hooks, and code scanning; distinguish local checks from hosted run results.",
     "scope": "personal",
@@ -303,7 +292,7 @@
   },
   {
     "name": "manage-deployment-secrets",
-    "description": "Implement CI/runtime secret storage, delivery, and rotation using the environment\u2019s existing secret provider.",
+    "description": "Implement CI/runtime secret storage, delivery, and rotation using the environment’s existing secret provider.",
     "scope": "personal",
     "sources": [
       "secrets-management"
@@ -525,13 +514,12 @@
   },
   {
     "name": "coordinate-parallel-agents",
-    "description": "Coordinate authorized parallel agent work, candidate comparisons or a supported multi-phase agent workflow.",
+    "description": "Coordinate authorized parallel agent work or candidate comparisons.",
     "scope": "optional",
     "sources": [
       "agent-fanout-plan",
       "worker-swarm-fanout",
-      "candidate-arena",
-      "opencode-deepwork"
+      "candidate-arena"
     ]
   },
   {

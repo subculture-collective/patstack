@@ -338,25 +338,6 @@
       "positiveTask": null,
       "nearMiss": null
     },
-    "blacktower": {
-      "canonicalSource": "library/skills/blacktower",
-      "owner": "Blacktower application/package",
-      "scope": "application-local",
-      "status": "structure-reviewed",
-      "supportedClients": [
-        "claude",
-        "codex",
-        "opencode"
-      ],
-      "requiredTools": [],
-      "lastReviewed": "2026-11-05",
-      "evidence": [
-        "docs/OPERATING-MODEL.md#ownership",
-        "docs/reviews/2026-11-05-task-stack-owner-conflicts.md"
-      ],
-      "positiveTask": "Configure Blacktower using its native application workflow.",
-      "nearMiss": "Select a general personal task set or configure an unrelated MCP server."
-    },
     "change-blast-check": {
       "canonicalSource": "skills/review-code-changes/references/modes/change-blast-check/guide.md",
       "owner": "review-code-changes",
@@ -1071,13 +1052,13 @@
       "nearMiss": "Unrelated work, unsupported client tools, or a mode not authorized by the request."
     },
     "opencode-deepwork": {
-      "canonicalSource": "library/skills/coordinate-parallel-agents/references/modes/opencode-deepwork/guide.md",
-      "owner": "coordinate-parallel-agents",
+      "canonicalSource": "archive/removed-skills-2026-11-14/opencode-deepwork/entrypoint.md",
+      "owner": null,
       "scope": "optional",
       "status": "archived",
       "supportedClients": [],
       "requiredTools": [],
-      "lastReviewed": "2026-11-09",
+      "lastReviewed": "2026-11-14",
       "evidence": [
         "catalog/consolidation-2026-11-09.json"
       ],
@@ -3719,7 +3700,7 @@
       "evidence": [
         "reports/structure.json"
       ],
-      "positiveTask": "Implement CI/runtime secret storage, delivery, and rotation using the environment\u2019s existing secret provider.",
+      "positiveTask": "Implement CI/runtime secret storage, delivery, and rotation using the environment’s existing secret provider.",
       "nearMiss": "Unrelated work without this technology or requested procedure."
     },
     "web-host-hardening": {

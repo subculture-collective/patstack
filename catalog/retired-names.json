@@ -32,20 +32,24 @@
     "procedure": "skills/design-architecture/references/modes/ubiquitous-language/guide.md"
   },
   "control-surface-designer": {
-    "owner": "blacktower-development",
-    "procedure": "repository-skills/blacktower-development/references/modes/control-surface-designer/guide.md"
+    "owner": null,
+    "procedure": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/control-surface-designer/guide.md",
+    "reason": "Blacktower retired 2026-11-14"
   },
   "plugin-integrator": {
-    "owner": "blacktower-development",
-    "procedure": "repository-skills/blacktower-development/references/modes/plugin-integrator/guide.md"
+    "owner": null,
+    "procedure": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/plugin-integrator/guide.md",
+    "reason": "Blacktower retired 2026-11-14"
   },
   "release-engineer": {
-    "owner": "blacktower-development",
-    "procedure": "repository-skills/blacktower-development/references/modes/release-engineer/guide.md"
+    "owner": null,
+    "procedure": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/release-engineer/guide.md",
+    "reason": "Blacktower retired 2026-11-14"
   },
   "session-warden": {
-    "owner": "blacktower-development",
-    "procedure": "repository-skills/blacktower-development/references/modes/session-warden/guide.md"
+    "owner": null,
+    "procedure": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/session-warden/guide.md",
+    "reason": "Blacktower retired 2026-11-14"
   },
   "deployment-pipeline-design": {
     "owner": "build-and-fix-ci",
@@ -1751,8 +1755,9 @@
     "procedure": "library/skills/coordinate-parallel-agents/references/modes/candidate-arena/guide.md"
   },
   "opencode-deepwork": {
-    "owner": "coordinate-parallel-agents",
-    "procedure": "library/skills/coordinate-parallel-agents/references/modes/opencode-deepwork/guide.md"
+    "owner": null,
+    "procedure": "archive/removed-skills-2026-11-14/opencode-deepwork/entrypoint.md",
+    "reason": "Blacktower retired 2026-11-14"
   },
   "opencode-cron": {
     "owner": "configure-opencode",
@@ -2450,5 +2455,15 @@
   "improve-to-a-target-score": {
     "owner": "hillclimb",
     "reason": "renamed by user request before first deployment, 2026-11-11"
+  },
+  "blacktower-development": {
+    "owner": null,
+    "procedure": "archive/removed-skills-2026-11-14/blacktower-development/entrypoint.md",
+    "reason": "Blacktower retired 2026-11-14"
+  },
+  "blacktower": {
+    "owner": null,
+    "procedure": "archive/removed-skills-2026-11-14/blacktower/entrypoint.md",
+    "reason": "Blacktower retired 2026-11-14"
   }
 }
