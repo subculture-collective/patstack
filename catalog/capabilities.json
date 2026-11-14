@@ -68,26 +68,26 @@
   {
     "original": "control-surface-designer",
     "owner": "blacktower-development",
-    "kind": "mode",
-    "path": "repository-skills/blacktower-development/references/modes/control-surface-designer/guide.md"
+    "kind": "archived",
+    "path": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/control-surface-designer/guide.md"
   },
   {
     "original": "plugin-integrator",
     "owner": "blacktower-development",
-    "kind": "mode",
-    "path": "repository-skills/blacktower-development/references/modes/plugin-integrator/guide.md"
+    "kind": "archived",
+    "path": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/plugin-integrator/guide.md"
   },
   {
     "original": "release-engineer",
     "owner": "blacktower-development",
-    "kind": "mode",
-    "path": "repository-skills/blacktower-development/references/modes/release-engineer/guide.md"
+    "kind": "archived",
+    "path": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/release-engineer/guide.md"
   },
   {
     "original": "session-warden",
     "owner": "blacktower-development",
-    "kind": "mode",
-    "path": "repository-skills/blacktower-development/references/modes/session-warden/guide.md"
+    "kind": "archived",
+    "path": "archive/removed-skills-2026-11-14/blacktower-development/references/modes/session-warden/guide.md"
   },
   {
     "original": "deployment-pipeline-design",

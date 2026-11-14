@@ -28,9 +28,9 @@ class RenderTests(unittest.TestCase):
     def test_client_specific_lines(self):
         self.assertIn('does not expand `@`', gi.render('sputnik', 'codex', 'x' * 40))
         self.assertNotIn('does not expand `@`', gi.render('sputnik', 'claude', 'x' * 40))
-        self.assertIn('blacktower', gi.render('soyuz', 'codex', 'x' * 40))
-        self.assertNotIn('blacktower', gi.render('soyuz', 'claude', 'x' * 40))
-        self.assertNotIn('blacktower', gi.render('kvant', 'codex', 'x' * 40))
+        for host in ('soyuz', 'kvant'):
+            for client in ('codex', 'claude'):
+                self.assertNotIn('blacktower', gi.render(host, client, 'x' * 40).lower())
 
     def test_context_and_rtk_files_follow_host_facts(self):
         soyuz = gi.render_all('soyuz', 'x' * 40)

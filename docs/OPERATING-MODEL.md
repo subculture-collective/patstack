@@ -21,7 +21,6 @@ and redistribution rights are reviewed.
 | Source workstation links outside skill views | `catalog/workstation-links.json` | Guarded `link-workstation.py`; transferred skill paths are excluded |
 | HOMELAB and documentation policy | Canonical Machinum notes | Documentation-Hub's guarded briefing sync |
 | Switchyard OpenCode image skills | `runtime-bundles/switchyard-opencode.json` | Image-owned export and lockfile; separate runtime distribution |
-| Blacktower distribution | Blacktower and Estate Config | Its package/release owner; not replaced by personal Subsets selections |
 
 The historical `personal`, `shared` and `optional` source labels describe
 provenance and source layout. They no longer determine an always-active runtime
@@ -137,7 +136,7 @@ Every host's Codex, Claude Code and OpenCode global file is generated. The
 shared part is `instructions/WORKING.md`: the owner's working preferences,
 written from observed failures in session history and kept as defaults a prompt
 can override. When a correction recurs, add a rule there with a short bad/good
-example. Per-host facts (home, RTK, vaults, Blacktower, local notes) live in
+example. Per-host facts (home, RTK, vaults, local notes) live in
 `instructions/hosts.json`; client differences live in the renderer. The same
 run also manages directory context files, which apply only to sessions started
 in that folder: `~/.agents/AGENTS.md` everywhere and any `contextFiles` listed

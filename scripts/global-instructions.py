@@ -63,9 +63,6 @@ def render(host, client, revision, source=ROOT / 'instructions'):
     if info.get('vaults'):
         host_lines.append('Vault roots: ' + info['vaults'] + '. Read the target vault\'s root AGENTS.md; '
                           'Machinum\'s `20-operations/Four Vault Setup.md` records ownership.')
-    if info.get('blacktowerCodex') and client == 'codex':
-        host_lines.append('Use `blacktower-codex:blacktower` at the start of each substantive coding task, '
-                          'follow its routing guidance, and prefer Blacktower plugin skills when an equivalent exists.')
     host_lines += info.get('notes', [])
     where = '' if info.get('authoringCheckout') else ' on Kvant'
     host_lines.append('Skill, profile and global-instruction changes are authored in patstack (`' + authoring +
