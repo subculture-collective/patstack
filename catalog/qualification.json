@@ -3719,7 +3719,7 @@
       "evidence": [
         "reports/structure.json"
       ],
-      "positiveTask": "Implement CI/runtime secret storage, delivery, and rotation using the environment’s existing secret provider.",
+      "positiveTask": "Implement CI/runtime secret storage, delivery, and rotation using the environment\u2019s existing secret provider.",
       "nearMiss": "Unrelated work without this technology or requested procedure."
     },
     "web-host-hardening": {
