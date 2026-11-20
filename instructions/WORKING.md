@@ -59,7 +59,7 @@ After two failed attempts at the same symptom, stop retrying the same fix. Gathe
 
 - Stop only processes you started, by the PID you recorded or a pattern that cannot match your own shell (`pkill -f '[v]ite'`). Never stop a T3 server, editor or another agent's job.
 - Never print, cat, or log anything that may hold a secret. Report key names, paths or hashes. If a secret was exposed anyway, say so in the same turn.
-- Run short commands in the foreground. After a T3 restart, check which background work died before redoing it.
+- After a T3 restart, check which background work died before redoing it.
 - Check free disk space before large downloads, images or builds.
 
 ## Replies
