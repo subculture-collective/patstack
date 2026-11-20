@@ -140,7 +140,8 @@ example. Per-host facts (home, RTK, vaults, local notes) live in
 `instructions/hosts.json`; client differences live in the renderer. The same
 run also manages directory context files, which apply only to sessions started
 in that folder: `~/.agents/AGENTS.md` everywhere and any `contextFiles` listed
-for a host (Soyuz's `~/AGENTS.md`). On RTK hosts it writes `~/.codex/RTK.md` and
+for a host. Do not list a home-directory `AGENTS.md`: Claude Code reads it
+from any session under home and would import HOMELAB a second time. On RTK hosts it writes `~/.codex/RTK.md` and
 `~/.claude/RTK.md`, which `rtk init --show` checks. On Almaz, `~/.agents` is also
 the dormant Agent Hub repository; its `AGENTS.md` and `CLAUDE.md` are rendered
 with a `contextNote` that points at the hub's own docs, and the two files are

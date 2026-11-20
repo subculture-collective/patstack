@@ -34,7 +34,8 @@ class RenderTests(unittest.TestCase):
 
     def test_context_and_rtk_files_follow_host_facts(self):
         soyuz = gi.render_all('soyuz', 'x' * 40)
-        self.assertIn('AGENTS.md', soyuz)
+        # Claude walks up from the working directory, so a ~/AGENTS.md would import HOMELAB twice.
+        self.assertNotIn('AGENTS.md', soyuz)
         self.assertIn('@/Users/onnwee/.homelab/HOMELAB.md', soyuz['.agents/AGENTS.md'])
         self.assertEqual(soyuz['.claude/RTK.md'], (ROOT / 'instructions/RTK.md').read_text())
         nuc = gi.render_all('nuc', 'x' * 40)
