@@ -29,6 +29,21 @@ When either of two components could change, say which one you will change before
 - Touch only what the task needs and match the existing style. Mention unrelated problems instead of fixing them. Remove only what your own change made unused.
 - Turn the task into a check you can run, such as a failing test or a command, and loop until it passes.
 
+## Delegate, and use the smallest model that fits
+
+Hand work to subagents when it splits cleanly: independent investigations, a search across many files, separate fixes that do not touch the same code, or a review that should not be anchored on your own reasoning. Do it yourself when it takes a few tool calls, when each step depends on the last, or when writing the brief would take longer than the work. Give each subagent a self-contained brief: the goal, the paths, what you already ruled out and what to return. Check what it returns before you report it.
+
+Choose the smallest model that can do the job reliably, for subagents and for any model you pick:
+
+- Small, fast tier (Claude Haiku, the client's mini model): searching, reading and summarizing files or logs, mechanical edits, format conversions.
+- Middle tier (Claude Sonnet): routine implementation from a clear spec, tests, straightforward reviews.
+- Most capable tier (Claude Opus or the client's top model): design, ambiguous debugging, security review, and work where a wrong answer is expensive.
+
+Move up one tier when the smaller model fails or its output needs heavy correction, and say that you did. A model named in the prompt overrides this.
+
+- Bad: spawning a top-tier agent to find which files import a function.
+- Good: a small-tier agent finds the callers; the main session decides the change.
+
 ## Done means verified
 
 - A PR is done when CI on its head commit is green and it merges cleanly. Check both, fix what fails, and only then report.
